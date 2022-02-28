@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+  </head>
+  <body>
+    <header>
+      <h1>Classroom Evaluation</h1>
+      <p>Please answer these questions as honestly as possible. This form is completely anonymous. Your answers will help improve our classroom environment. Thank you for your help.</p>
+      <p style= "color:red">* Required</p>
+    </header>
+
+<!--I have decided to use divs instead of section to separate all my feilds because I hope to make this document into a form. However i tought it would be pointless to make an actual form because i would have nowhere to post the form to as this is a html exclusive assignment. a suitable alternative would have been to v=create an ordered list-->
+    <div>
+      <h3>Email Address <span style= "color: red">*</span></h3>
+        <input type="email" placeholder ="Your email" name="email" value="">
+    </div>
+
+    <div>
+    <h3>On a scale of one to five, how comfortable do you feel as a member of this classroom? <span style= "color: red">*</span></h3>
+
+            <table name="comfortability">
+              <tr>
+                <td>
+                  <p> <br> <br>not comfortable &nbsp &nbsp</p>
+                </td>
+
+                <td>
+                    <label>&nbsp 1 &nbsp &nbsp &nbsp &nbsp 2 &nbsp &nbsp &nbsp &nbsp 3 &nbsp &nbsp &nbsp &nbsp 4 &nbsp &nbsp &nbsp &nbsp 5</label>
+
+                    <br> <br>
+
+                    <label> <input type="radio" name="comfortability" value="1" />&nbsp &nbsp &nbsp</label>
+
+                    <label> <input name="comfortability" value="2" type="radio" />&nbsp &nbsp &nbsp</label>
+
+                    <label> <input name="comfortability" type="radio" value="3" />&nbsp &nbsp &nbsp</label>
+
+                    <label> <input name="comfortability" type="radio" value="4" />&nbsp &nbsp &nbsp</label>
+
+                    <label> <input name="comfortability" type="radio" value="5" /></label>
+                </td>
+
+                <td>
+                  <p> <br> <br>&nbsp &nbsp very comfortable</p>
+                </td>
+              </tr>
+            </table>
+        </div>
+
+        <div>
+          <h3>  On a a scale of one to five, how well do you feel you are learning?<span style= "color: red">*</span></h3>
+
+                  <table name="learning">
+                    <tr>
+                      <td>
+                        <p> <br> <br>not at all &nbsp &nbsp</p>
+                      </td>
+
+                      <td>
+                          <label>&nbsp 1 &nbsp &nbsp &nbsp &nbsp 2 &nbsp &nbsp &nbsp &nbsp 3 &nbsp &nbsp &nbsp &nbsp 4 &nbsp &nbsp &nbsp &nbsp 5</label>
+
+                          <br> <br>
+
+                          <label> <input type="radio" name="learning" value="1" />&nbsp &nbsp &nbsp</label>
+
+                          <label> <input name="learning" value="2" type="radio" />&nbsp &nbsp &nbsp</label>
+
+                          <label> <input name="learning" type="radio" value="3" />&nbsp &nbsp &nbsp</label>
+
+                          <label> <input name="learning" type="radio" value="4" />&nbsp &nbsp &nbsp</label>
+
+                          <label> <input name="learning" type="radio" value="5" /></label>
+                      </td>
+
+                      <td>
+                        <p> <br> <br>&nbsp &nbsp Always learning</p>
+                      </td>
+                    </tr>
+                  </table>
+              </div>
+
+              <div>
+                <h3>On a scale of one to five, do you feel this teacher is respectful. <span style= "color: red">*</span></h3>
+
+                        <table name="respectfulness">
+                          <tr>
+                            <td>
+                              <p> <br> <br>disrespectful &nbsp &nbsp</p>
+                            </td>
+
+                            <td>
+                                <label>&nbsp 1 &nbsp &nbsp &nbsp &nbsp 2 &nbsp &nbsp &nbsp &nbsp 3 &nbsp &nbsp &nbsp &nbsp 4 &nbsp &nbsp &nbsp &nbsp 5</label>
+
+                                <br> <br>
+
+                                <label> <input type="radio" name="respectfulness" value="1" />&nbsp &nbsp &nbsp</label>
+
+                                <label> <input name="respectfulness" value="2" type="radio" />&nbsp &nbsp &nbsp</label>
+
+                                <label> <input name="respectfulness" type="radio" value="3" />&nbsp &nbsp &nbsp</label>
+
+                                <label> <input name="respectfulness" type="radio" value="4" />&nbsp &nbsp &nbsp</label>
+
+                                <label> <input name="respectfulness" type="radio" value="5" /></label>
+                            </td>
+
+                            <td>
+                              <p> <br> <br>&nbsp &nbsp very respectful</p>
+                            </td>
+                          </tr>
+                        </table>
+                  </div>
+
+                  <div>
+                        <h3>What is something that has been going well for you in this class? <span style= "color: red">*</span></h3>
+                          <input type="text" placeholder ="Your answer" name="going well" value="">
+                  </div>
+
+                  <div>
+                        <h3>What is something that has not been going well for you in this class? <span style= "color: red">*</span></h3>
+                          <input type="text" placeholder ="Your answer" name="not going well" value="">
+                  </div>
+
+                  <div>
+                        <h3>Has there been a time in class that you have felt disrespected? What happened? How could it be handled differently? <span style= "color: red">*</span></h3>
+                          <input type="text" placeholder ="Your answer" name="disrespected" value="">
+                  </div>
+
+                  <div>
+                        <h3>Have you found anything about this class frustrating? Can you think of a way it can be improved? <span style= "color: red">*</span></h3>
+                          <input type="text" placeholder ="Your answer" name="frustrating" value="">
+                  </div>
+
+                  <div>
+                        <h3>Do you think you learn best when you are in charge of deciding your projects or when the teacher is in charge of the work you will complete? Explain.<span style= "color: red">*</span></h3>
+                          <input type="text" placeholder ="Your answer" name="work better" value="">
+                  </div>
+
+                  <div>
+                        <h3>If you were the teacher, how would you teach the class and organize the room? <span style= "color: red">*</span></h3>
+                          <input type="text" placeholder ="Your answer" name="teach better" value="">
+                  </div>
+
+                  <div>
+                        <h3>What is your favorite activity this year? Why?</h3>
+                          <input type="text" placeholder ="Your answer" name="favorite activity" value="">
+                  </div>
+
+                  <div>
+                        <h3>What was your least favorite activity this year? Why?</h3>
+                          <input type="text" placeholder ="Your answer" name="least favorite activity" value="">
+                  </div>
+
+                  <div>
+                        <h3>What activities would you like to do in the future and how should they be incorporated? <span style= "color: red">*</span></h3>
+                          <input type="text" placeholder ="Your answer" name="new activities" value="">
+                  </div>
+
+                  <div>
+                        <h3>What activities would you like to do in the future and how should they be incorporated? <span style= "color: red">*</span></h3>
+                          <input type="text" placeholder ="Your answer" name="new activities" value="">
+                  </div>
+
+                  <div>
+                        <br>
+                        <!could be made into slider using css-->
+                        <label><input type="checkbox" name="responses" value=""> Send me a copy of my responses.</label>
+                  </div>
+
+                  <div>
+                        <br>
+                        <input type="button" name="submit" value="SUBMIT">
+                        <br>
+                        <br>
+                        <small>Never submit passwords through Google Forms.</small>
+                  </div>
+
+  </body>
+  <footer>
+    <!--text-align:center is deprecated and should be replaced using css styling. However due to the fact that i was given this task using html only i had to use it-->
+    <p style = "text-align:center">
+    <small>This form was created inside of Secaucus Board of Education. Report Abuse - Terms of Service - Additional Terms</small>
+    <br>
+    <strong><em>Google Forms</em></strong></p>
+  </footer>
+</html>
